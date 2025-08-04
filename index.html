@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>幻想喫茶 | 公式サイト</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOA | サーバー主連盟</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-b from-black via-purple-900 to-black text-white font-sans min-h-screen flex flex-col items-center justify-center">
+<body class="bg-[#0f172a] text-white font-sans">
 
-  <header class="text-center mb-10">
-    <h1 class="text-5xl font-bold tracking-wide">⑅̥꒰ঌ幻想喫茶☕ 𝐺𝑒𝑛𝑠𝑜𝑢 𝐶𝑎𝑓𝑒</h1>
-    <p class="text-lg mt-2 text-purple-300">幻想のその先へあなたをご招待…</p>
-  </header>
-
-  <main class="text-center">
-    <a href="https://discord.gg/yEu7XT7KWf" target="_blank"
-       class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-full transition duration-300 shadow-lg">
-      Discordに参加する
+  <!-- ナビバー -->
+  <nav class="flex items-center justify-between p-4 bg-[#0f172a] border-b border-gray-700">
+    <div class="text-xl font-bold">⑅̥꒰ঌ幻想喫茶☕ 𝐺𝑒𝑛𝑠𝑜𝑢 𝐶𝑎𝑓𝑒</div>
+    <div class="space-x-6 hidden md:flex">
+      <a href="#" class="hover:text-blue-400">ホーム</a>
+      <a href="#terms" class="hover:text-blue-400">利用規約</a>
+      <a href="#members" class="hover:text-blue-400">運営メンバー</a>
+    </div>
+    <a href="https://discord.gg/yEu7XT7KWf" class="bg-indigo-500 hover:bg-indigo-600 px-4 py-2 rounded-md shadow text-white text-sm">
+      Join to server
     </a>
+  </nav>
 
-    <section class="mt-10 max-w-xl mx-auto text-purple-200 text-sm leading-relaxed">
-      <p>
-        毎日平均10000メッセージの活発サーバー<br>
-        そんな幻想の世界へようこそ…
-      </p>
-    </section>
-  </main>
+  <!-- メインコンテンツ -->
+  <section class="flex flex-col items-center justify-center text-center py-32 px-4">
+    <h1 class="text-4xl font-bold mb-4">幻想喫茶</h1>
+    <p class="text-lg text-gray-300 mb-8">幻想のその先へあなたをご招待…</p>
+    <a href="https://discord.gg/xxxx" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-full text-white shadow">
+      🚀 サーバーに参加
+    </a>
+  </section>
 
-  <footer class="mt-16 text-xs text-gray-400">
-    &copy; 2025 幻想喫茶
+  <!-- フッターリンク -->
+  <footer class="text-center py-10 bg-[#0f172a] border-t border-gray-700">
+    <div id="terms" class="mb-2"><a href="/terms.html" class="underline hover:text-blue-400">利用規約</a></div>
+    <div id="members" class="mb-2"><a href="/members.html" class="underline hover:text-blue-400">運営メンバー一覧</a></div>
+    <p class="text-sm text-gray-400 mt-4">© 2025 SOA. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
